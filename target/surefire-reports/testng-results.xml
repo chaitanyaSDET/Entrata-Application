@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-15T17:15:08 IST" name="Master Suite" finished-at="2024-11-15T17:17:48 IST" duration-ms="159738">
+    <groups>
+    </groups>
+    <test started-at="2024-11-15T17:15:08 IST" name="Test" finished-at="2024-11-15T17:17:48 IST" duration-ms="159738">
+      <class name="testCases.TC0001_HomePageNavigation">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC0001_HomePageNavigation@222eb8aa]" started-at="2024-11-15T17:15:08 IST" name="setup" finished-at="2024-11-15T17:15:33 IST" duration-ms="24345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Navigation()[pri:0, instance:testCases.TC0001_HomePageNavigation@222eb8aa]" started-at="2024-11-15T17:15:33 IST" name="verify_Navigation" finished-at="2024-11-15T17:15:41 IST" duration-ms="7980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Navigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC0001_HomePageNavigation@222eb8aa]" started-at="2024-11-15T17:15:41 IST" name="tearDown" finished-at="2024-11-15T17:15:41 IST" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC0001_HomePageNavigation -->
+      <class name="testCases.TC0003_SignInTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC0003_SignInTest@2a76840c]" started-at="2024-11-15T17:16:27 IST" name="setup" finished-at="2024-11-15T17:16:48 IST" duration-ms="20977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_loginDDT()[pri:0, instance:testCases.TC0003_SignInTest@2a76840c]" started-at="2024-11-15T17:16:48 IST" name="verify_loginDDT" finished-at="2024-11-15T17:16:57 IST" duration-ms="8588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC0003_SignInTest@2a76840c]" started-at="2024-11-15T17:16:57 IST" name="tearDown" finished-at="2024-11-15T17:16:57 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC0003_SignInTest -->
+      <class name="testCases.TC0004_ImageCarousel">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC0004_ImageCarousel@71454b9d]" started-at="2024-11-15T17:16:57 IST" name="setup" finished-at="2024-11-15T17:17:40 IST" duration-ms="43399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_ImageCarousel()[pri:0, instance:testCases.TC0004_ImageCarousel@71454b9d]" started-at="2024-11-15T17:17:40 IST" name="verify_ImageCarousel" finished-at="2024-11-15T17:17:48 IST" duration-ms="7491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ImageCarousel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC0004_ImageCarousel@71454b9d]" started-at="2024-11-15T17:17:48 IST" name="tearDown" finished-at="2024-11-15T17:17:48 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC0004_ImageCarousel -->
+      <class name="testCases.TC0002_EndToEndTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC0002_EndToEndTest@46268f08]" started-at="2024-11-15T17:15:41 IST" name="setup" finished-at="2024-11-15T17:16:03 IST" duration-ms="21645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Carrier()[pri:0, instance:testCases.TC0002_EndToEndTest@46268f08]" started-at="2024-11-15T17:16:03 IST" name="verify_Carrier" finished-at="2024-11-15T17:16:27 IST" duration-ms="23779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Carrier -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC0002_EndToEndTest@46268f08]" started-at="2024-11-15T17:16:27 IST" name="tearDown" finished-at="2024-11-15T17:16:27 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC0002_EndToEndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
+</testng-results>

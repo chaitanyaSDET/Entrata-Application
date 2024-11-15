@@ -1,0 +1,284 @@
+2024-11-15 16:15:31 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\CHAITANYA AUTADE\eclipse-workspace\EntrataV12\testng.xml
+
+2024-11-15 16:15:49 INFO  TC0001_HomePageNavigation:13 - ***** Starting TC001_Navigation ****
+2024-11-15 16:15:49 INFO  TC0001_HomePageNavigation:20 - Clicked on Products.. 
+2024-11-15 16:15:52 INFO  TC0001_HomePageNavigation:25 - Clicked on Solutions.. 
+2024-11-15 16:15:55 INFO  TC0001_HomePageNavigation:30 - Clicked on Resources.. 
+2024-11-15 16:15:59 INFO  TC0001_HomePageNavigation:33 - Validating expected Title..
+2024-11-15 16:15:59 INFO  TC0001_HomePageNavigation:38 - Test passed
+2024-11-15 16:15:59 INFO  TC0001_HomePageNavigation:43 - ***** Finished TC001_Navigation *****
+2024-11-15 16:16:16 INFO  TC0002_EndToEndTest:14 - ***** Starting TC001_Navigation ****
+2024-11-15 16:16:20 INFO  TC0002_EndToEndTest:20 - Clicked on Carrier.. 
+2024-11-15 16:16:29 ERROR TC0002_EndToEndTest:85 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Location']"}
+  (Session info: chrome=130.0.6723.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d0acb61b6d8a9ae3f6f8a17e6efd6be2, findElement {using=xpath, value=//div[text()='Location']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.119, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\CHAITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53426}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53426/devtoo..., se:cdpVersion: 130.0.6723.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d0acb61b6d8a9ae3f6f8a17e6efd6be2
+2024-11-15 16:16:29 INFO  TC0002_EndToEndTest:89 - ***** Finished TC0002_End to End Test *****
+2024-11-15 16:49:55 INFO  TC0001_HomePageNavigation:13 - ***** Starting TC001_Navigation ****
+2024-11-15 16:49:55 INFO  TC0001_HomePageNavigation:20 - Clicked on Products.. 
+2024-11-15 16:49:58 INFO  TC0001_HomePageNavigation:25 - Clicked on Solutions.. 
+2024-11-15 16:50:01 INFO  TC0001_HomePageNavigation:30 - Clicked on Resources.. 
+2024-11-15 16:50:03 INFO  TC0001_HomePageNavigation:33 - Validating expected Title..
+2024-11-15 16:50:03 INFO  TC0001_HomePageNavigation:38 - Test passed
+2024-11-15 16:50:03 INFO  TC0001_HomePageNavigation:43 - ***** Finished TC001_Navigation *****
+2024-11-15 16:50:38 INFO  TC0002_EndToEndTest:14 - ***** Starting TC001_Navigation ****
+2024-11-15 16:51:05 INFO  TC0002_EndToEndTest:20 - Clicked on Carrier.. 
+2024-11-15 16:51:16 ERROR TC0002_EndToEndTest:85 - Test failed: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (a4c739bd8b2abddccfe2ff848db8d561)] -> xpath: //a[normalize-space()='Test Engineering']] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.119, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\CHAITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55683}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55683/devtoo..., se:cdpVersion: 130.0.6723.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a4c739bd8b2abddccfe2ff848db8d561
+2024-11-15 16:51:16 INFO  TC0002_EndToEndTest:89 - ***** Finished TC0002_End to End Test *****
+2024-11-15 16:51:29 INFO  TC0003_SignInTest:13 - ***** Starting TC0003_SignIn Test****
+2024-11-15 16:51:32 INFO  TC0003_SignInTest:21 - Clicked on SignIn button....
+2024-11-15 16:51:35 INFO  TC0003_SignInTest:27 - clicked on Property Manager Login
+2024-11-15 16:51:35 INFO  TC0003_SignInTest:33 - Enter UserName....
+2024-11-15 16:51:35 INFO  TC0003_SignInTest:36 - Enter Password....
+2024-11-15 16:51:36 INFO  TC0003_SignInTest:39 - clicked on Property Manager Login
+2024-11-15 16:51:36 INFO  TC0003_SignInTest:44 - Invalid Credentials, Login Failed, status message displayed and TestPassed
+2024-11-15 16:51:36 INFO  TC0003_SignInTest:50 - ***** Finished TC00003_SignIn Test  ****
+2024-11-15 16:52:08 INFO  TC0004_ImageCarousel:14 - ***** Starting TC005_ImageCarousel ****
+2024-11-15 16:52:32 INFO  TC0004_ImageCarousel:22 - Clicked on utilities.. 
+2024-11-15 16:52:32 INFO  TC0004_ImageCarousel:30 - verify ImageCarousel.. 
+2024-11-15 16:52:43 ERROR TC0004_ImageCarousel:38 - Test failed: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (b933cade7906a350b678ac136d62c78d)] -> xpath: //img[contains(@class,'slide-image image-contain')]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.119, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\CHAITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56203/devtoo..., se:cdpVersion: 130.0.6723.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b933cade7906a350b678ac136d62c78d
+2024-11-15 16:52:43 INFO  TC0004_ImageCarousel:42 - ***** Finished TC0005_Image Caousel*****
+2024-11-15 16:55:49 INFO  TC0001_HomePageNavigation:13 - ***** Starting TC001_Navigation ****
+2024-11-15 16:55:49 INFO  TC0001_HomePageNavigation:20 - Clicked on Products.. 
+2024-11-15 16:55:53 INFO  TC0001_HomePageNavigation:25 - Clicked on Solutions.. 
+2024-11-15 16:56:01 INFO  TC0001_HomePageNavigation:30 - Clicked on Resources.. 
+2024-11-15 16:56:06 INFO  TC0001_HomePageNavigation:33 - Validating expected Title..
+2024-11-15 16:56:06 INFO  TC0001_HomePageNavigation:38 - Test passed
+2024-11-15 16:56:06 INFO  TC0001_HomePageNavigation:43 - ***** Finished TC001_Navigation *****
+2024-11-15 16:56:27 INFO  TC0002_EndToEndTest:14 - ***** Starting TC001_Navigation ****
+2024-11-15 16:56:34 INFO  TC0002_EndToEndTest:20 - Clicked on Carrier.. 
+2024-11-15 16:56:43 ERROR TC0002_EndToEndTest:85 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Location']"}
+  (Session info: chrome=130.0.6723.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bbe0c9e6b6c38c59b3bccc3f49f480b0, findElement {value=//div[text()='Location'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.119, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\CHAITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56679}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56679/devtoo..., se:cdpVersion: 130.0.6723.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bbe0c9e6b6c38c59b3bccc3f49f480b0
+2024-11-15 16:56:43 INFO  TC0002_EndToEndTest:89 - ***** Finished TC0002_End to End Test *****
+2024-11-15 16:59:52 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\CHAITANYA AUTADE\eclipse-workspace\EntrataV12\testng.xml
+
+2024-11-15 17:00:40 INFO  TC0001_HomePageNavigation:13 - ***** Starting TC001_Navigation ****
+2024-11-15 17:00:41 INFO  TC0001_HomePageNavigation:20 - Clicked on Products.. 
+2024-11-15 17:00:45 INFO  TC0001_HomePageNavigation:25 - Clicked on Solutions.. 
+2024-11-15 17:00:48 INFO  TC0001_HomePageNavigation:30 - Clicked on Resources.. 
+2024-11-15 17:00:50 INFO  TC0001_HomePageNavigation:33 - Validating expected Title..
+2024-11-15 17:00:50 INFO  TC0001_HomePageNavigation:38 - Test passed
+2024-11-15 17:00:50 INFO  TC0001_HomePageNavigation:43 - ***** Finished TC001_Navigation *****
+2024-11-15 17:01:35 INFO  TC0003_SignInTest:13 - ***** Starting TC0003_SignIn Test****
+2024-11-15 17:01:42 INFO  TC0003_SignInTest:21 - Clicked on SignIn button....
+2024-11-15 17:01:45 INFO  TC0003_SignInTest:27 - clicked on Property Manager Login
+2024-11-15 17:01:45 INFO  TC0003_SignInTest:33 - Enter UserName....
+2024-11-15 17:01:45 INFO  TC0003_SignInTest:36 - Enter Password....
+2024-11-15 17:01:46 INFO  TC0003_SignInTest:39 - clicked on Property Manager Login
+2024-11-15 17:01:46 INFO  TC0003_SignInTest:44 - Invalid Credentials, Login Failed, status message displayed and TestPassed
+2024-11-15 17:01:46 INFO  TC0003_SignInTest:50 - ***** Finished TC00003_SignIn Test  ****
+2024-11-15 17:02:08 INFO  TC0004_ImageCarousel:14 - ***** Starting TC005_ImageCarousel ****
+2024-11-15 17:02:13 INFO  TC0004_ImageCarousel:22 - Clicked on utilities.. 
+2024-11-15 17:02:13 INFO  TC0004_ImageCarousel:30 - verify ImageCarousel.. 
+2024-11-15 17:02:15 INFO  TC0004_ImageCarousel:33 - Test passed
+2024-11-15 17:02:15 INFO  TC0004_ImageCarousel:42 - ***** Finished TC0005_Image Caousel*****
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\CHAITANYA AUTADE\AppData\Local\Temp\testng-eclipse--1033832723\testng-customsuite.xml
+
+2024-11-15 17:04:00 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2024-11-15 17:04:00 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@4bef0fe3: 262 ms
+2024-11-15 17:04:01 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@4de41af9: 257 ms
+2024-11-15 17:04:01 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@2f9a01c1: 18 ms
+2024-11-15 17:04:01 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@2692b61e: 16 ms
+2024-11-15 17:04:01 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@773cbf4f: 8 ms
+2024-11-15 17:04:01 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@350ec41e: 6 ms
+2024-11-15 17:04:01 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@69637b10: 0 ms
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\CHAITANYA AUTADE\AppData\Local\Temp\testng-eclipse-776657684\testng-customsuite.xml
+
+2024-11-15 17:04:22 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2024-11-15 17:04:22 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@4bef0fe3: 284 ms
+2024-11-15 17:04:23 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@4de41af9: 228 ms
+2024-11-15 17:04:23 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@2f9a01c1: 24 ms
+2024-11-15 17:04:23 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@2692b61e: 24 ms
+2024-11-15 17:04:23 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@773cbf4f: 15 ms
+2024-11-15 17:04:23 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@350ec41e: 11 ms
+2024-11-15 17:04:23 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@69637b10: 0 ms
+2024-11-15 17:05:24 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\CHAITANYA AUTADE\eclipse-workspace\EntrataV12\testng.xml
+
+2024-11-15 17:05:48 INFO  TC0001_HomePageNavigation:13 - ***** Starting TC001_Navigation ****
+2024-11-15 17:05:48 INFO  TC0001_HomePageNavigation:20 - Clicked on Products.. 
+2024-11-15 17:06:14 INFO  TC0001_HomePageNavigation:25 - Clicked on Solutions.. 
+2024-11-15 17:06:17 INFO  TC0001_HomePageNavigation:30 - Clicked on Resources.. 
+2024-11-15 17:06:20 INFO  TC0001_HomePageNavigation:33 - Validating expected Title..
+2024-11-15 17:06:20 INFO  TC0001_HomePageNavigation:38 - Test passed
+2024-11-15 17:06:20 INFO  TC0001_HomePageNavigation:43 - ***** Finished TC001_Navigation *****
+2024-11-15 17:06:41 INFO  TC0002_EndToEndTest:14 - ***** Starting TC001_Navigation ****
+2024-11-15 17:06:48 INFO  TC0002_EndToEndTest:20 - Clicked on Carrier.. 
+2024-11-15 17:07:06 INFO  TC0002_EndToEndTest:34 - Clicked on Apply.. 
+2024-11-15 17:07:16 INFO  TC0002_EndToEndTest:40 - Clicked on Aply for this Job.. 
+2024-11-15 17:07:16 INFO  TC0002_EndToEndTest:49 - set FullName... 
+2024-11-15 17:07:16 INFO  TC0002_EndToEndTest:52 - click on pronoun .. 
+2024-11-15 17:07:17 INFO  TC0002_EndToEndTest:55 - set Email.. 
+2024-11-15 17:07:17 INFO  TC0002_EndToEndTest:58 - set PhoneNumber.. 
+2024-11-15 17:07:17 INFO  TC0002_EndToEndTest:61 - set CurrentLocation.. 
+2024-11-15 17:07:17 INFO  TC0002_EndToEndTest:64 - set Current Company.. 
+2024-11-15 17:07:17 INFO  TC0002_EndToEndTest:67 - set LinkedIn URL.. 
+2024-11-15 17:07:17 INFO  TC0002_EndToEndTest:70 - set GitHub URL
+2024-11-15 17:07:17 INFO  TC0002_EndToEndTest:73 - set PortfolioURL.. 
+2024-11-15 17:07:18 INFO  TC0002_EndToEndTest:76 - set Additional Area Information.. 
+2024-11-15 17:07:18 INFO  TC0002_EndToEndTest:82 - Test passed
+2024-11-15 17:07:18 INFO  TC0002_EndToEndTest:89 - ***** Finished TC0002_End to End Test *****
+2024-11-15 17:07:39 INFO  TC0003_SignInTest:13 - ***** Starting TC0003_SignIn Test****
+2024-11-15 17:07:43 INFO  TC0003_SignInTest:21 - Clicked on SignIn button....
+2024-11-15 17:07:47 INFO  TC0003_SignInTest:27 - clicked on Property Manager Login
+2024-11-15 17:07:47 INFO  TC0003_SignInTest:33 - Enter UserName....
+2024-11-15 17:07:47 INFO  TC0003_SignInTest:36 - Enter Password....
+2024-11-15 17:07:48 INFO  TC0003_SignInTest:39 - clicked on Property Manager Login
+2024-11-15 17:07:48 INFO  TC0003_SignInTest:44 - Invalid Credentials, Login Failed, status message displayed and TestPassed
+2024-11-15 17:07:48 INFO  TC0003_SignInTest:50 - ***** Finished TC00003_SignIn Test  ****
+2024-11-15 17:08:37 INFO  TC0004_ImageCarousel:14 - ***** Starting TC005_ImageCarousel ****
+2024-11-15 17:09:02 INFO  TC0004_ImageCarousel:22 - Clicked on utilities.. 
+2024-11-15 17:09:02 INFO  TC0004_ImageCarousel:30 - verify ImageCarousel.. 
+2024-11-15 17:09:13 ERROR TC0004_ImageCarousel:38 - Test failed: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (5579013b57d3d41192b2208eea6e8033)] -> xpath: //img[contains(@class,'slide-image image-contain')]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.119, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\CHAITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58203/devtoo..., se:cdpVersion: 130.0.6723.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5579013b57d3d41192b2208eea6e8033
+2024-11-15 17:09:13 INFO  TC0004_ImageCarousel:42 - ***** Finished TC0005_Image Caousel*****
+2024-11-15 17:11:42 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\CHAITANYA AUTADE\eclipse-workspace\EntrataV12\test-output\testng-failed.xml
+
+2024-11-15 17:12:08 INFO  TC0004_ImageCarousel:14 - ***** Starting TC005_ImageCarousel ****
+2024-11-15 17:12:17 INFO  TC0004_ImageCarousel:22 - Clicked on utilities.. 
+2024-11-15 17:12:17 INFO  TC0004_ImageCarousel:30 - verify ImageCarousel.. 
+2024-11-15 17:12:32 ERROR TC0004_ImageCarousel:38 - Test failed: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (0d06aae6b8f41588aa13fce2cfa35d5a)] -> xpath: //img[contains(@class,'slide-image image-contain')]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.119, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\CHAITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58599}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58599/devtoo..., se:cdpVersion: 130.0.6723.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d06aae6b8f41588aa13fce2cfa35d5a
+2024-11-15 17:12:32 INFO  TC0004_ImageCarousel:42 - ***** Finished TC0005_Image Caousel*****
+2024-11-15 17:13:24 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\CHAITANYA AUTADE\eclipse-workspace\EntrataV12\test-output\testng-failed.xml
+
+2024-11-15 17:13:45 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\CHAITANYA AUTADE\eclipse-workspace\EntrataV12\test-output\testng-failed.xml
+
+2024-11-15 17:14:09 INFO  TC0004_ImageCarousel:14 - ***** Starting TC005_ImageCarousel ****
+2024-11-15 17:14:18 INFO  TC0004_ImageCarousel:22 - Clicked on utilities.. 
+2024-11-15 17:14:18 INFO  TC0004_ImageCarousel:30 - verify ImageCarousel.. 
+2024-11-15 17:14:31 INFO  TC0004_ImageCarousel:33 - Test passed
+2024-11-15 17:14:31 INFO  TC0004_ImageCarousel:42 - ***** Finished TC0005_Image Caousel*****
+2024-11-15 17:15:33 INFO  TC0001_HomePageNavigation:13 - ***** Starting TC001_Navigation ****
+2024-11-15 17:15:33 INFO  TC0001_HomePageNavigation:20 - Clicked on Products.. 
+2024-11-15 17:15:36 INFO  TC0001_HomePageNavigation:25 - Clicked on Solutions.. 
+2024-11-15 17:15:39 INFO  TC0001_HomePageNavigation:30 - Clicked on Resources.. 
+2024-11-15 17:15:41 INFO  TC0001_HomePageNavigation:33 - Validating expected Title..
+2024-11-15 17:15:41 INFO  TC0001_HomePageNavigation:38 - Test passed
+2024-11-15 17:15:41 INFO  TC0001_HomePageNavigation:43 - ***** Finished TC001_Navigation *****
+2024-11-15 17:16:03 INFO  TC0002_EndToEndTest:14 - ***** Starting TC001_Navigation ****
+2024-11-15 17:16:08 INFO  TC0002_EndToEndTest:20 - Clicked on Carrier.. 
+2024-11-15 17:16:19 INFO  TC0002_EndToEndTest:34 - Clicked on Apply.. 
+2024-11-15 17:16:25 INFO  TC0002_EndToEndTest:40 - Clicked on Aply for this Job.. 
+2024-11-15 17:16:25 INFO  TC0002_EndToEndTest:49 - set FullName... 
+2024-11-15 17:16:25 INFO  TC0002_EndToEndTest:52 - click on pronoun .. 
+2024-11-15 17:16:26 INFO  TC0002_EndToEndTest:55 - set Email.. 
+2024-11-15 17:16:26 INFO  TC0002_EndToEndTest:58 - set PhoneNumber.. 
+2024-11-15 17:16:26 INFO  TC0002_EndToEndTest:61 - set CurrentLocation.. 
+2024-11-15 17:16:26 INFO  TC0002_EndToEndTest:64 - set Current Company.. 
+2024-11-15 17:16:26 INFO  TC0002_EndToEndTest:67 - set LinkedIn URL.. 
+2024-11-15 17:16:26 INFO  TC0002_EndToEndTest:70 - set GitHub URL
+2024-11-15 17:16:26 INFO  TC0002_EndToEndTest:73 - set PortfolioURL.. 
+2024-11-15 17:16:27 INFO  TC0002_EndToEndTest:76 - set Additional Area Information.. 
+2024-11-15 17:16:27 INFO  TC0002_EndToEndTest:82 - Test passed
+2024-11-15 17:16:27 INFO  TC0002_EndToEndTest:89 - ***** Finished TC0002_End to End Test *****
+2024-11-15 17:16:48 INFO  TC0003_SignInTest:13 - ***** Starting TC0003_SignIn Test****
+2024-11-15 17:16:51 INFO  TC0003_SignInTest:21 - Clicked on SignIn button....
+2024-11-15 17:16:55 INFO  TC0003_SignInTest:27 - clicked on Property Manager Login
+2024-11-15 17:16:56 INFO  TC0003_SignInTest:33 - Enter UserName....
+2024-11-15 17:16:56 INFO  TC0003_SignInTest:36 - Enter Password....
+2024-11-15 17:16:57 INFO  TC0003_SignInTest:39 - clicked on Property Manager Login
+2024-11-15 17:16:57 INFO  TC0003_SignInTest:44 - Invalid Credentials, Login Failed, status message displayed and TestPassed
+2024-11-15 17:16:57 INFO  TC0003_SignInTest:50 - ***** Finished TC00003_SignIn Test  ****
+2024-11-15 17:17:40 INFO  TC0004_ImageCarousel:14 - ***** Starting TC005_ImageCarousel ****
+2024-11-15 17:17:46 INFO  TC0004_ImageCarousel:22 - Clicked on utilities.. 
+2024-11-15 17:17:46 INFO  TC0004_ImageCarousel:30 - verify ImageCarousel.. 
+2024-11-15 17:17:48 INFO  TC0004_ImageCarousel:33 - Test passed
+2024-11-15 17:17:48 INFO  TC0004_ImageCarousel:42 - ***** Finished TC0005_Image Caousel*****
