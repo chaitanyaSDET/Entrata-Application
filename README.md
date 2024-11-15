@@ -1,4 +1,4 @@
-Entrata Application
+Entrata Application.
 Automation TestScripts to Validate Functional test Cases
 
 Overview
